@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    padding: 20px;
+}
+
+.chat-window {
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.input-container {
+    padding-top: 10px;
+}
+
+.input-container form {
+    display: flex;
+}
+
+.input-container input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.input-container button {
+    padding: 10px;
+    border: none;
+    background-color: #0288d1;
+    color: white;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: #0277bd;
+}
+
+.login-container, .contact-container {
+    padding: 20px;
+}
+
+.login-container form, .contact-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container form > div, .contact-container form > div {
+    margin-bottom: 15px;
+}
